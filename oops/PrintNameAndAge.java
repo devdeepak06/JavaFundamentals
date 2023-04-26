@@ -1,3 +1,11 @@
+/*
+Problem Statement:
+    Write a program to find the area of a rectangle.
+    */
+/*
+    Time Complexity: O(1)
+    Space Complexity: O(1)
+ */
 package oops;
 
 import java.util.Scanner;
@@ -25,7 +33,6 @@ class Person {
     }
 
 }
-
 
 public class PrintNameAndAge {
     public static void main(String[] args) {

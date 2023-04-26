@@ -1,3 +1,13 @@
+/*
+ Problem Statement:
+    Write a program to find the area of a rectangle.
+    */
+/*
+    Time Complexity: O(1)
+    Space Complexity: O(1)
+    
+ */
+
 package oops;
 
 public class AreaOfRectangle {
