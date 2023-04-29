@@ -24,7 +24,6 @@ Sample Input 3 :
 Sample Output 3 :
 -1
 */
-
 package conditionalsandloops;
 import java.util.Scanner;
 
