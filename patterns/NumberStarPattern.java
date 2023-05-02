@@ -12,28 +12,28 @@ package patterns;
 public class NumberStarPattern {
 
     public static void main(String[] args) {
-        java.util.Scanner s = new java.util.Scanner(System.in);
-        
-        int n = s.nextInt();
-        int i = 1;
-        while (i <= n) {
-            int j = 1;
-            while (j <= n - i + 1) {
-                System.out.print(j);
-                j = j + 1;
+        try (java.util.Scanner s = new java.util.Scanner(System.in)) {
+            int n = s.nextInt();
+            int i = 1;
+            while (i <= n) {
+                int j = 1;
+                while (j <= n - i + 1) {
+                    System.out.print(j);
+                    j = j + 1;
+                }
+                int k = 1;
+                while (k <= 2 * i - 2) {
+                    System.out.print("*");
+                    k = k + 1;
+                }
+                int l = n - i + 1;
+                while (l >= 1) {
+                    System.out.print(l);
+                    l = l - 1;
+                }
+                System.out.println();
+                i = i + 1;
             }
-            int k = 1;
-            while (k <= 2 * i - 2) {
-                System.out.print("*");
-                k = k + 1;
-            }
-            int l = n - i + 1;
-            while (l >= 1) {
-                System.out.print(l);
-                l = l - 1;
-            }
-            System.out.println();
-            i = i + 1;
         }
     }
 }
