@@ -9,7 +9,7 @@
 //4
 
 
-// package strings;
+package string;
 
 public class OneStrings {
 

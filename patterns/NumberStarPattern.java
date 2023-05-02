@@ -12,7 +12,9 @@ package patterns;
 public class NumberStarPattern {
 
     public static void main(String[] args) {
-        int n = 5;
+        java.util.Scanner s = new java.util.Scanner(System.in);
+        
+        int n = s.nextInt();
         int i = 1;
         while (i <= n) {
             int j = 1;
